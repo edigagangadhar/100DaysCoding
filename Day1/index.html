@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <body>
+      <div>
     <div
       style="
         background: lightblue;
@@ -11,8 +12,9 @@
         margin: 30px;
         padding: 30px;
         text-align: center;
-        font-size: 30px; ;
-      "
+        font-size: 30px;
+        float: left;
+              "
     >
       <p>It is first div</p>
     </div>
@@ -27,9 +29,89 @@
         text-align: center;
         margin: 30px;
         font-size: 30px;
+        float: left;
       "
     >
       <p>It is second div</p>
+    </div>
+    <div style="clear: both;"></div>
+</div>
+    <div   style="
+          margin: 2cm;
+           border-left: 50px solid transparent;
+          border-right: 50px solid transparent;
+          border-top: 100px solid red;
+          height: 0px;
+          width: 0px;
+          z-index: 1;       
+          display: inline-block;
+          
+        ">
+      <a
+        href="https://www.google.com/"
+        target="none"
+        style="position:relative;"
+      
+        ></a
+      >
+    </div>
+    <div style="display: inline;">
+      <a
+        href="https://www.google.com/"
+        target="none"
+        style="
+          margin: 2cm;
+          border-right: 50px solid transparent;
+          border-top: 50px solid transparent;
+          border-bottom: 50px solid transparent;
+          border-left: 100px solid red;
+          height: 0px;
+          width: 0px;
+          text-align: right;
+          z-index: 1;    
+                    
+        "
+        ></a
+      >
+      <div style="display: inline;">
+      <a
+        href="https://www.google.com/"
+        target="none"
+        style="
+          margin: 2cm;
+          border-left: 50px solid transparent;
+          border-top: 50px solid transparent;
+          border-bottom: 50px solid transparent;
+          border-right: 70px solid red;
+          height: 0px;
+          width: 0px;
+          text-align: center;
+          padding-left: 10px;
+                           "
+        ></a
+      >
+    </div>
+          <div style="display: inline;">
+      <a
+        href="https://www.google.com/"
+        target="none"
+        style="
+          margin: 2cm;
+          clear: left;
+
+          border-left: 50px solid transparent;
+          border-top: 50px solid transparent;
+          border-right: 50px solid transparent;
+          border-bottom: 70px solid red;
+          height: 0px;
+          width: 0px;
+          text-align: center;
+          
+          
+          
+        "
+        ></a
+      >
     </div>
   </body>
 </html>
