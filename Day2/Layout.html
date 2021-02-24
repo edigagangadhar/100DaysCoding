@@ -9,7 +9,7 @@
       body {
         font-family: Arial;
         padding: 10px;
-        background: #f1f1f1;
+        background: #f1f1f1b0;
       }
 
       /* Header/Blog Title */
@@ -18,12 +18,24 @@
         text-align: left;
         background: #aaf1ed;
         border-radius: 10px;
+                
+        font-size: 20px;
+        font-weight: bold;
       }
 
       .main-header h1 {
         font-size: 50px;
         width: 300px;
         display: inline;
+        
+      }
+      
+      .main-header a {
+        font-size: 20px;
+        width: 300px;
+        display: inline;
+        text-decoration: none;
+        color:#131010;
       }
       .main-header p {
         text-align: right;
@@ -56,12 +68,17 @@
         background-color: #ddd;
         color: black;
       }
-
+a:hover {
+        background-color: #ddd;
+        color: black;
+      }
       /* Create two unequal columns that floats next to each other */
       /* Left column */
       .leftcolumn {
         float: left;
         width: 75%;
+        margin-top: 10px;
+        border-radius: 10px;
       }
 
       /* Right column */
@@ -70,6 +87,8 @@
         width: 25%;
         background-color: #f1f1f1;
         padding-left: 20px;
+        margin-top: 10px;
+        border-radius: 10px;
       }
 
       /* Fake image */
@@ -83,7 +102,8 @@
       .card {
         background-color: white;
         padding: 20px;
-        margin-top: 20px;
+        margin-top: 10px;
+        border-radius: 10px;
       }
 
       /* Clear floats after the columns */
@@ -91,6 +111,7 @@
         content: "";
         display: table;
         clear: both;
+        border-radius: 10px;
       }
 
       /* Footer */
@@ -99,6 +120,16 @@
         text-align: center;
         background: #ddd;
         margin-top: 20px;
+        border-radius: 10px;
+      }
+      .row {
+        border-radius: 10px;
+        margin-top: 10px;
+      }
+      li {
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+        margin: 5px;
       }
 
       /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
@@ -123,59 +154,173 @@
     <header class="main-header">
       <h1>My Profile</h1>
       <p>Around Decade of Experience in IT industry as Software engineer</p>
+      <div style="clear: both;"></div>
+      <a href="#">Name : Ediga Gangadhar</a>
     </header>
 
     <nav class="main-nav">
-      <a href="#">Name : Ediga Gangadhar</a>
-      <a
-        href="https://www.linkedin.com/in/gangadhar-ediga-58217a79/"
-        target="none"
-        >Linkedin Profile</a
-      >
+         
+      <a href="#oracle" >Work in Oracle(OFSS)</a>
+      <a href="#cerner" >Work in Cerner</a>
       <a href="" style="float: right">9060570780</a>
     </nav>
 
     <div class="row">
       <div class="leftcolumn">
-        <div class="card">
-          <h2>Skills</h2>
-          <div class="fakeimg" style="height: 200px">Image</div>
-          <p>Some text..</p>
-          <p>
-            Sunt in culpa qui officia deserunt mollit anim id est laborum
-            consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-            exercitation ullamco.
-          </p>
+        <div class="card" style="background-color: rgba(105, 199, 199,0.4)">
+          <h2>PROFESSIONAL SUMMARY:</h2>
+
+          <ul class="responsibilities">
+            <li>
+              Having 9 Years of relevant working experience as Oracle PLSQL
+              Developer and also worked on Pentaho ETL, which includes Software
+              Design, Coding and Implementation on Windows/LINUX Environments in
+              relating to Database System in Software Application Development.
+            </li>
+            <li>
+              Extensively worked on Data Modeling to create various data models
+              for Data Mart.
+            </li>
+            <li>
+              Worked on Data Migration project for integrating data from legacy
+              system to current system.
+            </li>
+            <li>
+              Created Data Models for different modules like Registration,
+              Returns, Payments and Refunds modules.
+            </li>
+            <li>Head complex ETL requirements and design.</li>
+            <li>
+              Done one-time data migration using Pentaho Data Integration tool.
+            </li>
+            <li>Performing data Cleansing to improve the data quality.</li>
+            <li>
+              Lead and guide development of Pentaho based ETL architecture.
+            </li>
+            <li>
+              Develop solution in highly demanding environment and provide hands
+              on guidance to other team members
+            </li>
+            <li>
+              Extensively worked on query Performance tuning using SQL Trace,
+              explain plan, Profiler and used other performance tools.
+            </li>
+            <li>
+              Worked on Data Model for ACL, Registrations and Returns modules.
+            </li>
+            <li>
+              Installation and upgradation of Pentaho DI and set up the
+              environment.
+            </li>
+            <li>
+              Created views and tableau reports on top of the views for
+              reporting purpose.
+            </li>
+            <li>Worked on Pentaho server performance issues.</li>
+            <li>
+              Developed many Transformations and Jobs as per business
+              requirement.
+            </li>
+            <li>
+              Worked on Creating Oracle Partitions to increase the performance.
+            </li>
+            <li>Extensively worked on Collections and Collection methods.</li>
+            <li>
+              Constructive skill in Developing Stored Procedures, Functions,
+              Packages, Cursors and Runtime Handling of Errors Using Exceptions
+              in PLSQL.
+            </li>
+            <li>
+              Experience in Developing and Designing Queries Using Joins,
+              Sub-queries, Set Operators.
+            </li>
+            <li>
+              Very good experience in using Exceptions to handle run time
+              errors.
+            </li>
+            <li>
+              Worked on SQL*Loader and External Tables program to load data to
+              Oracle tables from flat files.
+            </li>
+            <li>
+              Good Implementation and has Expertise in the Unit Testing of SQL
+              and PL/SQL Code for Oracle Database
+            </li>
+            <li>
+              Highly Motivated team player with Good Communication skills and
+              Excellent Problem-solving abilities.
+            </li>
+          </ul>
         </div>
-        <div class="card">
+        <div
+          class="card"
+          style="
+            background-color: rgba(29, 177, 16, 0.05);
+            border: solid 5px coral;
+            border-radius: 10px;
+          "
+        >
           <h2>Experience</h2>
-          <h5>Title description, Sep 2, 2017</h5>
-          <div class="fakeimg" style="height: 200px">Image</div>
-          <p>Some text..</p>
-          <p>
-            Sunt in culpa qui officia deserunt mollit anim id est laborum
-            consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-            exercitation ullamco.
-          </p>
+          <p>Currently having the over all 8+ years of Experience</p>
+          <ul>
+            <li>
+              Working with Cerner Corporation as a Team Lead from DEC-2013 to
+              till now.
+            </li>
+            <li>
+              Worked with Oracle Financial Services Bangalore as a PL/SQL
+              Developer from may-2012 to dec-13.
+            </li>
+          </ul>
         </div>
       </div>
       <div class="rightcol">
-        <div class="card">
+        <div class="card" style="background-color: rgba(104, 207, 90, 0.3)">
           <h2>About Me</h2>
-          <div class="fakeimg" style="height: 100px">Image</div>
-          <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
+          <p style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Having 9 Years of relevant working experience as Oracle PLSQL Developer and also worked on Pentaho ETL, which includes Software Design, Coding and Implementation on Windows/LINUX Environments in relating to Database System in Software Application Development.</p>
         </div>
-        <div class="card">
+        <div
+          class="card"
+          style="
+            background-color: rgba(255, 0, 0, 0.2);
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman',
+              serif;
+          "
+        >
           <h3>Achievements</h3>
-          <div class="fakeimg"><p>Image</p></div>
-          <div class="fakeimg"><p>Image</p></div>
-          <div class="fakeimg"><p>Image</p></div>
+          <p>
+            I have bagged the NoTT for 4 times and 2 times best performer
+            award.<br /><br />
+            <span><i>
+                <b>
+                NoTT Award would given for doing the job Beyond expectation and
+                add the more value to the product
+                </i>
+            </b>
+            </span
+            >
+          </p>
+          <ul>
+            <li>NoTT</li>
+            <li>NoTT</li>
+            <li>NoTT</li>
+            <li>NoTT</li>
+          </ul>
         </div>
-        <div class="card">
+        <div class="card" style="border: solid orange;background-color: rgba(0, 255, 255,0.2); height: 140px;">
           <h3>Follow Me</h3>
-          <p>Some text..</p>
+                <a
+        href="https://www.linkedin.com/in/gangadhar-ediga-58217a79/"
+        target="none" style="text-decoration: none;color: #131010;font-weight: bold;"
+        >Linkedin Profile</a
+      >
+        </div>
+                <div class="card" style="border: solid orange;background-color: rgba(0, 255, 255,0.2);height: 170px;">
+          <h3>Interests</h3>
+          <p style=" font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman',
+              serif;font-size: 17px;"><i>Currently i am investing my Interests on the  Big Data,Devops and cloud Technologies to identify the cost effective solution for the clients</i></p>
+ 
+ 
         </div>
       </div>
     </div>
